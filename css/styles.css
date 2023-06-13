@@ -1,0 +1,286 @@
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4rem;
+  line-height: ;
+  font-weight: 900;
+  color: rgb(37, 29, 58);
+  margin-top: 50px;
+}
+h1 span {
+  font-size: 2rem;
+}
+body {
+  /* font-family: "Montserrat"; */
+}
+
+#title {
+  background-image: url("https://media.discordapp.net/attachments/825429867130257488/972205203250102363/hero-bg.jpg?width=1007&height=671");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  box-shadow: inset 2000px 0 0 0 rgba(0, 255, 0, 0.5);
+  border-color: rgba(0, 255, 0, 1);
+}
+.navbar-brand {
+  position: relative;
+  top: 10px;
+  left: 0px;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar-toggler {
+  position: absolute;
+  right: 30px;
+  /* padding: 3% ; */
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+.navbar {
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 6.5;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Merriweather";
+  opacity: 0.8;
+  color: black;
+}
+
+.nav-item {
+  position: relative;
+  bottom: 3rem;
+  padding: 0 18px;
+}
+
+/* navbar media query */
+@media only screen and (max-width: 991px) {
+  .navbar-brand {
+    position: relative;
+    bottom: 35px;
+    /* display: none; */
+  }
+  .navbar-toggler {
+    position: absolute;
+    right: 0 0 4.5rem;
+    /* padding: 3% ; */
+    top: 0.5rem;
+  }
+  .nav-link {
+    position: relative;
+    top: 5.7rem;
+  }
+
+  .vertical h1 {
+    margin-top: 25vh;
+    font-size: 4em;
+  }
+}
+/* navbar media query */
+
+#title button {
+  margin: 5% 3% 5% 0;
+}
+
+@media only screen and (max-width: 1371px) {
+  #press img {
+    display: block;
+    padding: 4.5rem;
+    width: 50%;
+  }
+  #press svg {
+    display: block;
+    padding: 4.5rem;
+    width: 50%;
+  }
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    line-height: ;
+    font-weight: 900;
+    color: rgb(37, 29, 58);
+    color: ;
+    margin-top: 50px;
+  }
+}
+
+#features {
+  background-image: url("https://media.discordapp.net/attachments/825429867130257488/972205403591016468/download.jpg?width=1084&height=671");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.7);
+  border-color: rgba(0, 0, 0, 1);
+  text-align: center;
+  padding: 10.5rem;
+}
+#features i {
+  color: rgb(16, 165, 100);
+  margin-bottom: 1rem;
+}
+#features h3 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+#features p {
+  color: #8f8f8f;
+}
+#features i:hover {
+  color: #ff4c68;
+  /* padding: 2.5rem; */
+}
+#testimonials {
+  background-image: url("https://media.discordapp.net/attachments/825429867130257488/972205549892558878/c-bg.jpg?");
+  box-shadow: inset 2000px 0 0 0 rgba(0, 255, 0, 0.5);
+  border-color: rgba(0, 255, 0, 1);
+}
+#testimonials h2 {
+  text-align: center;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+}
+#testimonials img {
+  margin-left: auto;
+  margin-right: auto;
+  /* border-radius:100%; */
+  display: block;
+  width: 20%;
+  height: 20%;
+}
+#testimonials em {
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+#press {
+  text-align: center;
+}
+#press h3 {
+  position: relative;
+  top: 1rem;
+}
+#press img {
+  display: inline;
+  padding: 4.5rem;
+  width: 20%;
+}
+#press svg {
+  display: inline;
+  padding: 4.5rem;
+  width: 20%;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+#pricing {
+  padding: 100px;
+}
+#pricing h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+}
+.pc {
+  padding: 3% 2%;
+  display: inline;
+  background-color: ;
+}
+#pricing h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+}
+#cta {
+  background-image: url("https://media.discordapp.net/attachments/825429867130257488/972205947164450816/cta.jpg?https://ibb.co/zJZcvKf");
+  text-align: center;
+  box-shadow: inset 2000px 0 0 0 rgba(0, 255, 0, 0.5);
+  border-color: rgba(0, 255, 0, 1);
+}
+#cta h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4rem;
+  padding: 5% 20%;
+  padding-bottom: 0%;
+  color: white;
+  line-height: 5rem;
+}
+#footer {
+  text-align: center;
+  padding: 2% 0 1% 0;
+
+  background-color: white;
+}
+#footer p {
+  color: grey;
+}
+#footer i {
+  letter-spacing: 10px;
+}
+.logo {
+  width: 5rem;
+  transform: rotate(0deg);
+  border-radius: 100%;
+}
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+*/ .container p {
+  font-size: 3rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+}
+.container p span.typed-text {
+  font-weight: normal;
+  color: #dd7732;
+}
+.container p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.container p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0% {
+    background-color: #ccc;
+  }
+  49% {
+    background-color: #ccc;
+  }
+  50% {
+    background-color: transparent;
+  }
+  99% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #ccc;
+  }
+}
+#heading {
+  position: relative;
+  top: 10vh;
+}
+#pricing {
+  background-image: url("https://media.discordapp.net/attachments/825429867130257488/972206414430871582/cp.jpg?width=1007&height=671");
+  background-size: cover;
+  box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.7);
+  border-color: rgba(0, 0, 0, 1);
+}
